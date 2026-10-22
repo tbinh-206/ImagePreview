@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Preview</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Image Preview</h1>
+
+    <!-- Khung hiển thị ảnh lớn -->
+    <div id="image">
+        Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.
+    </div>
+
+    <!-- Các ảnh nhỏ -->
+    <div class="gallery">
+        <img
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=500"
+            alt="Phong cảnh thiên nhiên tuyệt đẹp"
+            onmouseover="upDate(this)"
+            onmouseleave="undo()"
+        >
+
+        <img
+            src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=500"
+            alt="Biển xanh và những con sóng"
+            onmouseover="upDate(this)"
+            onmouseleave="undo()"
+        >
+
+        <img
+            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=500"
+            alt="Hồ nước giữa núi rừng"
+            onmouseover="upDate(this)"
+            onmouseleave="undo()"
+        >
+
+        <img
+            src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500"
+            alt="Núi non và mặt hồ thơ mộng"
+            onmouseover="upDate(this)"
+            onmouseleave="undo()"
+        >
+
+        <img
+            src="https://images.unsplash.com/photo-1472396961693-142e6e269027?w=500"
+            alt="Động vật trong thiên nhiên"
+            onmouseover="upDate(this)"
+            onmouseleave="undo()"
+        >
+    </div>
+
+</body>
+</html>
